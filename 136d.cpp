@@ -35,7 +35,7 @@ int main()
         vector_int arr;
         //arr.resize(n);
         ifstream out;
-        out.open(namefile);  
+        out.open(namefile);		//заполнение вектора из файла
         while (!out.eof())
         {
             out >> n;
